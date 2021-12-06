@@ -4,6 +4,14 @@ const styles = StyleSheet.create({
     container : {
         flexDirection : 'row',
         // alignContent : 'center',
+        justifyContent : "space-between",
+        alignItems : 'center'
+    },
+    left : {
+        flexDirection : 'row',
+    },
+    right : {
+        marginRight : 15,
     },
     name : {
         alignSelf:'center',
