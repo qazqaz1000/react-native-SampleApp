@@ -8,7 +8,7 @@ import Feed from "../../components/Feed";
 
 const HomeScreen = () => (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>hi home</Text>
+        {/* <Text>hi home</Text> */}
         
         {/* <Post post={post} ></Post> */}
         <Feed></Feed>

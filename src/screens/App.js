@@ -11,10 +11,16 @@ import * as React from 'react';
 
 
 // import { WebView } from 'react-native-webview';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import { NavigationContainer } from '@react-navigation/native'; 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import { getHeaderTitle } from '@react-navigation/elements';
+
+
+import FDicons from 'react-native-vector-icons/Foundation';
+import Feather from 'react-native-vector-icons/Feather';
+import AntDesign from 'react-native-vector-icons/AntDesign';
 
 
 // import { Route, Router } from 'react-router-dom';
@@ -26,6 +32,8 @@ import About  from '../About';
 // import type {Node} from 'react';
 import {Result, LeftButton, RightButton} from './src/rightButton';
 
+import Router from '../router';
+
 import {
   Button,
   SafeAreaView,
@@ -35,6 +43,7 @@ import {
   Text,
   useColorScheme,
   View,
+  Image,
 } from 'react-native';
 
 import {
@@ -76,8 +85,10 @@ const Section = ({children, title}): Node => {
 };
 
 
-const Stack = createNativeStackNavigator();
-const Tab = createBottomTabNavigator();
+
+
+
+
 const App: () => React$Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -87,12 +98,9 @@ const App: () => React$Node = () => {
 
   
   return (
-
     <NavigationContainer>
-      <Tab.Navigator>
-        <Tab.Screen name="Home" component={HomeScreen} />
-        <Tab.Screen name="About" component={About} />
-      </Tab.Navigator>
+      <StatusBar barStyle="dark-content" />
+      <Router/>
     </NavigationContainer>
       
     

@@ -5,6 +5,7 @@ import Stories from "../Stories";
 import Post from "../Post";
 const data = [
     {
+        id:1,
         user: {
             imageUri: require("../../assets/lion_shy.png"),
             name: 'lion',
@@ -15,6 +16,7 @@ const data = [
         postedAt : ' 7분전'
     },
     {
+        id : 2,
         user: {
             imageUri: require("../../assets/muji.png"),
             name: 'lion',
@@ -25,6 +27,7 @@ const data = [
         postedAt : ' 11분전'
     },
     {
+        id : 3,
         user: {
             imageUri: require("../../assets/neo.png"),
             name: 'lion',
@@ -40,6 +43,7 @@ const Feed = () => (
     <FlatList
         data = {data}
         renderItem={({item}) => <Post post={item}/>}
+        keyExtractor={({id}) => id}
         ListHeaderComponent={Stories}
     ></FlatList>
 )
