@@ -23,6 +23,8 @@ const StoryScreen = () => {
     // const [activeStory, setActiveStory] = useState(null);
     const route = useRoute();
     const navigation = useNavigation();
+    console.log("StoryScreen : route.params");
+    console.log(route.params);
     const userId = route.params.userId;
     
     console.log(userId);

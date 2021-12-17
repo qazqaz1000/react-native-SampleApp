@@ -7,15 +7,15 @@ export default [
         },
         stories : [
             {
-                imageUri : require("../assets/post_wedding.jpg"),
+                imageUri : require("../assets/image_white.jpeg"),
                 postedTime : '25 m',
             },
             {
-                imageUri : require("../assets/post_kiss.jpg"),
+                imageUri : require("../assets/image_white2.jpeg"),
                 postedTime : '25 m',
             },
             {
-                imageUri : require("../assets/post_smile.jpg"),
+                imageUri : require("../assets/image_white3.jpeg"),
                 postedTime : '25 m',
             },
         ]
@@ -28,15 +28,15 @@ export default [
         },
         stories : [
             {
-                imageUri : require("../assets/post_wedding.jpg"),
+                imageUri : require("../assets/image_white.jpeg"),
                 postedTime : '25 m',
             },
             {
-                imageUri : require("../assets/post_kiss.jpg"),
+                imageUri : require("../assets/image_white2.jpeg"),
                 postedTime : '25 m',
             },
             {
-                imageUri : require("../assets/post_kiss.jpg"),
+                imageUri : require("../assets/image_white2.jpeg"),
                 postedTime : '25 m',
             },
         ]
@@ -48,7 +48,7 @@ export default [
         },
         stories : [
             {
-                imageUri : require("../assets/post_wedding.jpg"),
+                imageUri : require("../assets/image_white.jpeg"),
                 postedTime : '25 m',
             },
         ]
@@ -60,7 +60,7 @@ export default [
         },
         stories : [
             {
-                imageUri : require("../assets/post_wedding.jpg"),
+                imageUri : require("../assets/image_white.jpeg"),
                 postedTime : '25 m',
             },
         ]
@@ -72,7 +72,7 @@ export default [
         },
         stories : [
             {
-                imageUri : require("../assets/post_wedding.jpg"),
+                imageUri : require("../assets/image_white.jpeg"),
                 postedTime : '25 m',
             },
         ]
@@ -84,7 +84,7 @@ export default [
         },
         stories : [
             {
-                imageUri : require("../assets/post_wedding.jpg"),
+                imageUri : require("../assets/image_white.jpeg"),
                 postedTime : '25 m',
             },
         ]
@@ -96,7 +96,7 @@ export default [
         },
         stories : [
             {
-                imageUri : require("../assets/post_kiss.jpg"),
+                imageUri : require("../assets/image_white2.jpeg"),
                 postedTime : '25 m',
             },
         ]
@@ -108,7 +108,7 @@ export default [
         },
         stories : [
             {
-                imageUri : require("../assets/post_kiss.jpg"),
+                imageUri : require("../assets/image_white2.jpeg"),
                 postedTime : '25 m',
             },
         ]

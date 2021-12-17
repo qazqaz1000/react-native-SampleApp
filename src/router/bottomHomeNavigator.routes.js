@@ -9,6 +9,7 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 import HomeStackScreen from './home.routes';
 import HomeScreen from "../screens/HomeScreen";
 import About from "../About";
+import SecondScreen from "../screens/SecondScreen";
 const Tab = createBottomTabNavigator();
 
 const BottomHomeNavigator = () => (
@@ -45,7 +46,7 @@ const BottomHomeNavigator = () => (
     })}
   >
     <Tab.Screen name="Home" component={HomeStackScreen} />
-    <Tab.Screen name="Discovery" component={HomeScreen} />
+    <Tab.Screen name="Discovery" component={SecondScreen} initialParams={{test:3}}/>
     <Tab.Screen name="Post" component={HomeScreen} />
     <Tab.Screen name="Notifications" component={HomeScreen} />
     <Tab.Screen name="Profile" component={About} />

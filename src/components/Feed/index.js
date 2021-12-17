@@ -10,7 +10,7 @@ const data = [
             imageUri: require("../../assets/lion_shy.png"),
             name: 'lion',
         },
-        imageUri: require("../../assets/post_wedding.jpg"),
+        imageUri: require("../../assets/image_white.jpeg"),
         caption : '남철 예지 결혼식날',
         likes : 38475,
         postedAt : ' 7분전'
@@ -21,7 +21,7 @@ const data = [
             imageUri: require("../../assets/muji.png"),
             name: 'lion',
         },
-        imageUri: require("../../assets/post_smile.jpg"),
+        imageUri: require("../../assets/image_white2.jpeg"),
         caption : '남철 예지 웃자',
         likes : 1241,
         postedAt : ' 11분전'
@@ -32,7 +32,7 @@ const data = [
             imageUri: require("../../assets/neo.png"),
             name: 'lion',
         },
-        imageUri: require("../../assets/post_kiss.jpg"),
+        imageUri: require("../../assets/image_white3.jpeg"),
         caption : '남철 예지 결혼식날',
         likes : 343666,
         postedAt : ' 10분전'
