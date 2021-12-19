@@ -12,7 +12,7 @@ import * as React from 'react';
 
 // import { WebView } from 'react-native-webview';
 // import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import { NavigationContainer } from '@react-navigation/native'; 
+import { NavigationContainer } from '@react-navigation/native';
 
 
 import Router from './router';
@@ -37,6 +37,13 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import {
+  RecoilRoot,
+  atom,
+  selector,
+  useRecoilValue,
+  useRecoilState
+} from 'recoil';
 
 // import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
@@ -80,10 +87,13 @@ const App: () => React$Node = () => {
 
   
   return (
-    <NavigationContainer>
-      <StatusBar barStyle="dark-content" />
-      <Router/>
-    </NavigationContainer>
+    <RecoilRoot>
+      <NavigationContainer>
+        <StatusBar barStyle="dark-content" />
+        <Router />
+      </NavigationContainer>
+    </RecoilRoot>
+
       
     
     

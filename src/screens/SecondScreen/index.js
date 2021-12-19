@@ -6,6 +6,7 @@ import { useEffect } from "react/cjs/react.development";
 import { useSelector, useDispatch } from "react-redux"
 import ReduxStateView from "../../components/ReduxStateView"
 import styles from "./styles";
+import RecoilStateView from "../../components/RecoilStateView";
 const SecondScreen = (props) => {
     const route = useRoute();
     const [myState, setMyState] = useState(0);
@@ -54,6 +55,8 @@ const SecondScreen = (props) => {
         return tt.movies;
       };
 
+
+      //redux
     const dispatch = useDispatch()
 
 	const { value } = useSelector(state => state.value);
@@ -88,6 +91,7 @@ const SecondScreen = (props) => {
                 <Text>value : {value}</Text>
                 <Text>count : {count}</Text>
                 <ReduxStateView></ReduxStateView>
+                <RecoilStateView></RecoilStateView>
             </View>
         </SafeAreaView>
 
