@@ -46,8 +46,8 @@ const BottomHomeNavigator = () => (
     })}
   >
     <Tab.Screen name="Home" component={HomeStackScreen} />
-    <Tab.Screen name="Discovery" component={SecondScreen} initialParams={{test:3}}/>
-    <Tab.Screen name="Post" component={HomeScreen} />
+    <Tab.Screen name="Discovery" component={SecondScreen} initialParams={{test:1}}/>
+    <Tab.Screen name="Post" component={SecondScreen} initialParams={{test:2}} />
     <Tab.Screen name="Notifications" component={HomeScreen} />
     <Tab.Screen name="Profile" component={About} />
   </Tab.Navigator>
